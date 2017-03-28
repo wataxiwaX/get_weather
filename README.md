@@ -4,6 +4,8 @@
 `./weather.sh [选项] <地区代码>`
 
 举个栗子：`./weather.sh -c "ASI|CN|CH044|GuangZhou"`
+
+返回的结果为：`Cloudy: 22°C`
 #### 选项
 - -f &emsp; 华氏度
 - -c &emsp; 摄氏度
