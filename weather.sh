@@ -1,12 +1,12 @@
 #!/bin/sh
 
 if [ $# != 2 ]; then
-    echo
-    echo "USAGE: weather.sh <locationcode>"
-    echo "-f	Fahrenheit"
+	echo
+	echo "USAGE: weather.sh <locationcode>"
+	echo "-f	Fahrenheit"
 	echo "-c 	Centigrade"
 	echo
-    exit 0;
+	exit 0;
 fi
 
 while getopts "f:c:" arg
