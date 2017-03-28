@@ -1,5 +1,5 @@
 # get_weather
-从accuweather获取当前天气的脚本，可以用来在Conky中显示天气
+从accuweather获取当前天气，可以用来在Conky中显示天气
 ### 用法
 `./weather.sh [选项] <地区代码>`
 
